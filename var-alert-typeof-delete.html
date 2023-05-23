@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Variabel Javascript</title>
+
+    <script>
+      // Membuat variabel
+      var name = "PPW Seru Banget";
+      var classMember = 27;
+      var isFun = true;
+      var url = "https://elok.ugm.ac.id/course/view.php?id=11881";
+
+      // Menghapus variabel (?)
+      delete url;
+
+      // Menampilkan tipe data variabel
+      console.log(typeof name);
+      console.log(typeof classMember);
+      console.log(typeof isFun);
+      console.log(typeof url);
+
+      // Menampilkan variabel ke jendela dialog (alert)
+      alert("Selamat datang di " + name);
+
+      // Menampilkan variabel ke dalam HTML
+      document.write("Nama Situs: " + name + "<br>");
+      document.write("Jumlah Mahasiswa: " + classMember + "<br>");
+      document.write("Status Keseruan: " + isFun + "<br>");
+      document.write("Alamat URL: " + url + "<br>");
+    </script>
+  </head>
+  <body>
+    <!-- Alert dalam event onclick button -->
+    <button onclick="alert('aaa saya terklik')">Klik Aku!</button>
+  </body>
+</html>
